@@ -479,4 +479,4 @@ client.on('guildMemberAdd', member => {
     var role = member.guild.roles.find('name', 'Membres');
     member.addRole(role);
 })
-client.login(process.env.TOKEN);
+client.login('Nzg3ODExOTE5NDg2NTE3Mjk5.X9aZBg.jF-RGeEGuA0PZGtlxZbJcq9f0MQ');
