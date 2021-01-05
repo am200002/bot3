@@ -435,10 +435,10 @@ console.log(`Logged in as ${client.user.tag}!`)
 client.user.setStatus('online')
 client.user.setPresence({
 game: {
-        name: 'Nekfeu > Jul',
+        name: '?non',
         type: "Playing",
         url: "https://discordapp.com/"}});
-client.user.setActivity('Nekfeu > Jul');
+client.user.setActivity('?non');
 });
 
 client.commands = new Collection();
