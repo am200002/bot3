@@ -435,10 +435,10 @@ console.log(`Logged in as ${client.user.tag}!`)
 client.user.setStatus('online')
 client.user.setPresence({
 game: {
-        name: '?non',
+        name: 'développé par feedaïn || ?non',
         type: "Playing",
         url: "https://discordapp.com/"}});
-client.user.setActivity('?non');
+client.user.setActivity('développé par feedaïn || ?non');
 });
 
 client.commands = new Collection();
